@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #fff  ,#8ddeee);
+}
+.logo{
+    width: 50%;
+    height: auto;
+    color:white;
+    top: 50px;
+    right: 10rem;
+    margin-right: 200px;
+    background-image:linear-gradient(#8d98e3 40%, #854fee 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    border-radius: 70%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+.logo h1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes aagepiche{
+    from{padding-left: 20px;}
+    to {padding-right:  300px;}
+}
